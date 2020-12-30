@@ -370,5 +370,88 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "avenida",
+      "number": "23",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "meniId": "espreso"
+        },
+        {
+          "quantity": 1,
+          "meniId": "capp"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "avenida",
+      "number": "21",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "meniId": "espreso"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "Avenida Brasil",
+      "number": "100",
+      "optionalAddress": "apt 10",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "meniId": "chocpop"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "Rua 13",
+      "number": "234",
+      "optionalAddress": "",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "meniId": "greensandwich"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "address": "Rua 9",
+      "number": "12",
+      "optionalAddress": "",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "meniId": "espreso"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "address": "Av Brasil",
+      "number": "123",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 2,
+          "meniId": "cup"
+        }
+      ],
+      "id": 6
+    }
+  ]
 }
